@@ -1,0 +1,101 @@
+{
+  "resume_sections": [
+    {
+      "section_name": "about",
+      "action": "Update my about section of my resume and align it with the Job Description. Include keywords extracted from the Job description.",
+      "rules": [
+        "Only use the information provided on my resume to update it, do not include any external data.",
+        "Keep it consistent, clear, concise, a paragraph of 6 lines at most.",
+        "Do not use any fancy or sophisticated wording. Use natural language to sound human, authentic and honest.",
+        "Do not include anything outside of the resume scope."
+      ],
+      "section_text_header": "ANY TEXT YOU HAVE IN YOUR RESUME IDENTIFIED AS ABOUT OR INTRO."
+    },
+    {
+      "section_name": "skills_section",
+      "action": "Align the skills section with the keywords extracted from the Job description.",
+      "rules": [
+        "Only use the information provided on my resume to update it, do not include any external data.",
+        "Keep it consistent, clear, concise, a paragraph of 6 lines at most.",
+        "Do not use any fancy or sophisticated wording. Use natural language to sound human, authentic and honest.",
+        "Do not include anything outside of the resume scope.",
+		"Keep structure of bullet points"		
+      ],
+      "section_text_header": "Skills",
+	  "section_text_bullet1": "Leadership: Product Management | Agile Framework | Cross-functional Team Leadership. ",
+	  "section_text_bullet2": "ANY ADDITIONAL SKILLS OF YOUR RESUME, YOU CAN ADD MULTIPLE ROWS",
+	 }
+	,
+    {
+      "section_name": "first_company_experience",
+      "action": "Align the work experience section with the keywords extracted from the Job description.",
+      "rules": [
+        "Only use the information provided on my resume to update it, do not include any external data.",
+        "Keep it consistent, clear, concise, a paragraph of 6 lines at most.",
+        "Do not use any fancy or sophisticated wording. Use natural language to sound human, authentic and honest.",
+        "Do not include anything outside of the resume scope.",
+		"Keep structure of bullet points"		
+      ],
+      "section_text_header": "HEADER OR INTRO OF YOUR FIRST WORKING EXPERIENCE",
+	  "section_text_bullet1": "A) BULLETPOINTS OF YOUR RESUME, ONE PER ROW. ",
+	  "section_text_bullet2": "B) MORE BULLETPOINTS. ",
+	  "section_text_bullet3": "C) MORE BULLETPOINTS ",
+    },
+    {
+      "section_name": "second_working_experience",
+      "action": "Align the work experience section with the keywords extracted from the Job description.",
+      "rules": [
+        "Only use the information provided on my resume to update it, do not include any external data.",
+        "Keep it consistent, clear, concise, a paragraph of 6 lines at most.",
+        "Do not use any fancy or sophisticated wording. Use natural language to sound human, authentic and honest.",
+        "Do not include anything outside of the resume scope.",
+		"Keep structure of bullet points"		
+      ],
+      "section_text_header": "HEADER OR INTRO OF YOUR SECOND WORK EXPERIENCE.",
+	  "section_text_bullet1": "A) BULLETPOINTS OF YOUR RESUME, ONE PER ROW. ",
+	  "section_text_bullet2": "B) MORE BULLETPOINTS. ",
+	  "section_text_bullet3": "C) MORE BULLETPOINTS ",
+    },
+    {
+      "section_name": "third_experience",
+      "action": "Align the work experience section with the keywords extracted from the Job description.",
+      "rules": [
+        "Only use the information provided on my resume to update it, do not include any external data.",
+        "Keep it consistent, clear, concise, a paragraph of 6 lines at most.",
+        "Do not use any fancy or sophisticated wording. Use natural language to sound human, authentic and honest.",
+        "Do not include anything outside of the resume scope.",
+		"Keep structure of bullet points"		
+      ],
+      "section_text_header": "HEADER OR INTRO OF YOUR SECOND WORK EXPERIENCE.",
+	  "section_text_bullet1": "A) BULLETPOINTS OF YOUR RESUME, ONE PER ROW. ",
+	  "section_text_bullet2": "B) MORE BULLETPOINTS. ",
+	  "section_text_bullet3": "C) MORE BULLETPOINTS ",
+    },
+    {
+      "section_name": "fourth_experience",
+      "action": "Align the work experience section with the keywords extracted from the Job description.",
+      "rules": [
+        "Only use the information provided on my resume to update it, do not include any external data.",
+        "Keep it consistent, clear, concise, a paragraph of 6 lines at most.",
+        "Do not use any fancy or sophisticated wording. Use natural language to sound human, authentic and honest.",
+        "Do not include anything outside of the resume scope.",
+		"Keep structure of bullet points"		
+      ],
+      "section_text_header": "HEADER OR INTRO OF YOUR SECOND WORK EXPERIENCE.",
+	  "section_text_bullet1": "A) BULLETPOINTS OF YOUR RESUME, ONE PER ROW. ",
+	  "section_text_bullet2": "B) MORE BULLETPOINTS. ",
+	  "section_text_bullet3": "C) MORE BULLETPOINTS ",
+    },
+    {
+      "section_name": "cover_letter",
+      "action": "Based on the JD, my resume updated, the keywords provided. Create a cover letter with the same topics described in the keywords. Create a brief paragraph for each one of them. Include an introduction and a closing paragraph.",
+      "rules": [
+        "Only use the information provided on my resume to update it, do not include any external data.",
+        "Keep it consistent, clear, concise, each paragraph of 3 lines at most.",
+        "Do not use any fancy or sophisticated wording. Use natural language to sound human, authentic and honest.",
+        "Do not include anything outside of the resume scope.",
+		"Keep structure of bullet points"		
+      ]
+    }
+  ]
+}
