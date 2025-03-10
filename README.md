@@ -12,7 +12,7 @@ Some considerations of this project:
 - You need to have your current resume as a PDF file in the same directory
 
 
-Data Flow of this project
+Data Flow of this project:<br>
 1.- The Notebook load the Antropic API as a environment variable<br>
 2.- The process reaed the Job Description file and the personal resume in PDF format<br>
 3.- Using a prompt and the Job Description, we are doing a first interaction with Claude to extract the Keywords<br>
