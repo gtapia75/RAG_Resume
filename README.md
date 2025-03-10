@@ -1,8 +1,8 @@
 # RAG_Resume
 The goal of this project is to help to update your resume doing the following:
-
-** Extract the most relevant keywords from a specific Job Description
-** Review the sections you want to update from your resume and rephrase them using the keywords from the JD
+<br>
+** Extract the most relevant keywords from a specific Job Description<br>
+** Review the sections you want to update from your resume and rephrase them using the keywords from the JD<br>
 
 Some considerations of this project:
 - This project is using Anthropic API to interact with Claude 3.7, so for that reason you will need to have a valid Anthropic account to be able to run this code.
