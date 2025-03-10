@@ -1,23 +1,19 @@
-# RAG_Resume
-The goal of this project is to help to update your resume doing the following:
-<br>
-** Extract the most relevant keywords from a specific Job Description<br>
-** Review the sections you want to update from your resume and rephrase them using the keywords from the JD<br>
+Resume Enhancement with RAG Logic
 
-Some considerations of this project:
-- This project is using Anthropic API to interact with Claude 3.7, so for that reason you will need to have a valid Anthropic account to be able to run this code.
-- The API KEY is stored in the file called "secrets.json", once you create your Anthropic account you can generate your KEY and update this file
-- You need to have the Job Description in a PDF format
-- You need to create a JSON file with the sections you are interested to update from your resume, see the template called "personal_resume.json"
-- You need to have your current resume as a PDF file in the same directory
+Overview
 
+This project implements a Retrieval-Augmented Generation (RAG) approach using Claude 3.7 to enhance a personal resume by aligning it with a given job description. The model extracts relevant keywords and updates specific resume sections based on predefined instructions.
 
-Data Flow of this project:<br>
-1.- The Notebook load the Antropic API as a environment variable<br>
-2.- The process reaed the Job Description file and the personal resume in PDF format<br>
-3.- Using a prompt and the Job Description, we are doing a first interaction with Claude to extract the Keywords<br>
-4.- Then we read the sections to update from the file "personal_resume.json", we will request to Claude to update section by section from this json<br>
-5.- Iterate from the different sections loaded in step 4 and request to Claude to update it using the keywords extracted<br>
-6.- In the personal_resume.json file include, as the last section, the request to create a cover letter too. This will usee keywords, the JD and the resume.<br>
-7.- All the responses will be printed and the you can copy and paste this information on your resume.<br>
+Features
 
+Reads the job description and personal resume from PDF files.
+
+Extracts relevant keywords from the job description using Claude 3.7.
+
+Uses a resume.json file to determine which sections of the resume need updating.
+
+Iterates through each section and updates it using AI-driven text refinement.
+
+Generates a new cover letter that aligns with the job description.
+
+Uses a secrets.json file to store the Anthropic API key securely
