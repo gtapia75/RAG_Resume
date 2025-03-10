@@ -1,5 +1,6 @@
 # RAG_Resume
 The goal of this project is to help to update your resume doing the following:
+
 ** Extract the most relevant keywords from a specific Job Description
 ** Review the sections you want to update from your resume and rephrase them using the keywords from the JD
 
