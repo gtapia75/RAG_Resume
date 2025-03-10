@@ -13,11 +13,11 @@ Some considerations of this project:
 
 
 Data Flow of this project
-1.- The Notebook load the Antropic API as a environment variable
-2.- The process reaed the Job Description file and the personal resume in PDF format
-3.- Using a prompt and the Job Description, we are doing a first interaction with Claude to extract the Keywords
-4.- Then we read the sections to update from the file "personal_resume.json", we will request to Claude to update section by section from this json
-5.- Iterate from the different sections loaded in step 4 and request to Claude to update it using the keywords extracted
-6.- In the personal_resume.json file include, as the last section, the request to create a cover letter too. This will usee keywords, the JD and the resume.
-7.- All the responses will be printed and the you can copy and paste this information on your resume.
+1.- The Notebook load the Antropic API as a environment variable<br>
+2.- The process reaed the Job Description file and the personal resume in PDF format<br>
+3.- Using a prompt and the Job Description, we are doing a first interaction with Claude to extract the Keywords<br>
+4.- Then we read the sections to update from the file "personal_resume.json", we will request to Claude to update section by section from this json<br>
+5.- Iterate from the different sections loaded in step 4 and request to Claude to update it using the keywords extracted<br>
+6.- In the personal_resume.json file include, as the last section, the request to create a cover letter too. This will usee keywords, the JD and the resume.<br>
+7.- All the responses will be printed and the you can copy and paste this information on your resume.<br>
 
